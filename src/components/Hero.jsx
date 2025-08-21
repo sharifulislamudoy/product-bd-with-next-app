@@ -30,6 +30,7 @@ const Hero = () => {
               >
                 Shop Now
               </Link>
+              {/* <button className="btn">Default</button> */}
               <Link 
                 href="/categories"
                 className="px-6 py-3 rounded-xl border border-gray-300 dark:border-gray-600 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
@@ -48,7 +49,7 @@ const Hero = () => {
           >
             <div className="relative w-72 h-72 sm:w-96 sm:h-96 lg:w-[28rem] lg:h-[28rem]">
               <Image 
-                src="/hero-fashion1.jpg" // <-- Replace with your image in /public
+                src="/hero-fashion1.png"
                 alt="Fashion model"
                 fill
                 priority
